@@ -1,0 +1,54 @@
+body {
+    background: #00305e;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00305e, #0267c5, #2a98ff);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.section-design {
+    padding-bottom: 5vh;
+    text-align: left;
+    background: rgb(0, 48, 94);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.left-aligned-part {
+    text-align: left;
+    background: rgb(0, 48, 94);
+    color: white;
+}
+
+.col {
+    padding: 20px;
+}
+
+.image-comein {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.blue-background{
+    background-color: rgb(0, 48, 94);
+}
+ 
+.text-style{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
