@@ -19,8 +19,18 @@ body {
     }
   }
 
+.menu-design{
+    background: rgb(0, 48, 94);
+    color: white;
+}
+
+.container{
+    max-width: 1000;
+}
+
 .section-design {
     padding-bottom: 5vh;
+    padding-left: 20px;
     text-align: left;
     background: rgb(0, 48, 94);
     color: white;
@@ -51,4 +61,10 @@ body {
 .text-style{
     color: white;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.learning-image{
+    max-width: 80%;
+    height: auto;
+    object-fit: cover;
 }
