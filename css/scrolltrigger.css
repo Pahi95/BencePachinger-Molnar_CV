@@ -19,11 +19,6 @@ body {
     }
   }
 
-.menu-design{
-    background: rgb(0, 48, 94);
-    color: white;
-}
-
 .section-design {
     padding-bottom: 5vh;
     padding-left: 20px;
@@ -46,7 +41,6 @@ body {
 }
 
 .left-aligned-part {
-    text-align: left;
     background: rgb(0, 48, 94);
     color: white;
 }
@@ -100,4 +94,3 @@ a:hover{
   background-color: white
 }
 
-<!--------------------------
