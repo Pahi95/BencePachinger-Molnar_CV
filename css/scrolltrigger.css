@@ -62,6 +62,23 @@ body {
   align-items: center;
 }
 
+.contact-info-main{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  align-items: center;
+}
+
+.contact-text {
+  color: white;
+  font-size:medium;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-align{
+  padding-bottom: 5vh;
+}
+
 .blue-background{
     background-color: rgb(0, 48, 94);
 }
